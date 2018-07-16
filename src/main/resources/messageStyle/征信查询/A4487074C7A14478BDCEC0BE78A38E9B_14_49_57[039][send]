@@ -1,0 +1,36 @@
+00000947<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <SYS_HEAD>
+        <Mac>0000000000001</Mac>
+        <MsgId>2bc7f1cc-3757-4381-b9c8-5ba787de39aa</MsgId>
+        <SourceSysId>200510</SourceSysId>
+        <ConsumerId>200510</ConsumerId>
+        <ServiceCode>02002000005</ServiceCode>
+        <ServiceScene>02</ServiceScene>
+        <ReplyAdr></ReplyAdr>
+        <ExtendContent></ExtendContent>
+    </SYS_HEAD>
+    <APP_HEAD>
+        <TranDate>20180629</TranDate>
+        <TranTime>104115</TranTime>
+        <TranTellerNo>6427</TranTellerNo>
+        <TranSeqNo>20051020180629g5JKh1T6PwG66cfs</TranSeqNo>
+        <GlobalSeqNo>20051020180629g5JKh1T6PwG66cfs</GlobalSeqNo>
+        <AuthrTellerNo>6427</AuthrTellerNo>
+        <AuthrPwd></AuthrPwd>
+    </APP_HEAD>
+    <BODY>
+        <IdntTp>101</IdntTp>
+        <IdentNo>110108195607175419</IdentNo>
+        <CstNm>李龙云</CstNm>
+        <QryRsn>02</QryRsn>
+        <QryFmtCd>30</QryFmtCd>
+        <QryTp>0</QryTp>
+        <QryPolcyCd>2</QryPolcyCd>
+        <RsltTp>2</RsltTp>
+        <GtFlMth>2</GtFlMth>
+        <IntfId>zhengxin_QuryCustCreditReport</IntfId>
+        <UsrKey>cc5b01fc9d4f4df3acde14dbd07d7493 </UsrKey>
+        <IntVrNo>1</IntVrNo>
+    </BODY>
+</service>

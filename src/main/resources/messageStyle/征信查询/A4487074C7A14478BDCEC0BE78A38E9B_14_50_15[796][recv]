@@ -1,0 +1,31 @@
+00000779<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+    <SYS_HEAD>
+        <ExtendContent/>
+        <ServiceScene/>
+        <RelatedMsgId/>
+        <ServiceCode/>
+        <Mac>0000000000001</Mac>
+        <TargetSysId>200510</TargetSysId>
+        <MsgId>2bc7f1cc-3757-4381-b9c8-5ba787de39aa</MsgId>
+    </SYS_HEAD>
+    <APP_HEAD>
+        <ReturnCode>00000000000000</ReturnCode>
+        <ReturnMsg>调用成功</ReturnMsg>
+        <LangCode/>
+        <TranDate>20180629</TranDate>
+        <BackendSysId>200490</BackendSysId>
+        <BackendSeqNo/>
+        <TranTime>104115</TranTime>
+        <GlobalSeqNo>20051020180629g5JKh1T6PwG66cfs</GlobalSeqNo>
+    </APP_HEAD>
+    <BODY>
+        <FileArray>
+            <OtptFile>20051020180629g5JKh1T6PwG66cfs_200490.html</OtptFile>
+        </FileArray>
+        <FileArray>
+            <OtptFile>20051020180629g5JKh1T6PwG66cfs_200490.xml</OtptFile>
+        </FileArray>
+    </BODY>
+</service>

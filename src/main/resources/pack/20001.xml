@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pack>
+	<!--服务编号  每一个报文都需要自定义一个唯一的服务编号做标识-->
+	<PackCode>DZZH200001</PackCode>
+	<Desc>电子账户开户</Desc>
+	<LogFlag>true</LogFlag>
+	<Encoding>GBK</Encoding>
+	<!--对应代码中的handler,指明接收报文具体执行哪个handler -->
+	<Handler>Handler200001</Handler>
+	<!--指定报文根节点-->
+	<Root>Document</Root>
+	
+	<!-- 收到的请求报文格式 -->	
+	<Request>
+		<Field name="ip" desc="测试" len="8" nullable="" loop=""  tag="service/BODY/IdntTp"/>
+	</Request>  
+	
+	<!-- 处理请求后的响应 -->
+	<Response>
+		<!--公共报文头-->
+		<Field name="status" desc="返回码" len="4" nullable="true" loop=""  tag="Document/ResponseHeader/status"/>
+		<!--私有域-->
+		<Field name="mediid" desc="返回码" len="4" nullable="true" loop=""  tag="Document/Content/mediid"/>
+	</Response>
+</Pack>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pack>
+	<!--服务编号  每一个报文都需要自定义一个唯一的服务编号做标识-->
+	<PackCode>02002000005</PackCode>
+	<Desc>征信</Desc>
+	<LogFlag>true</LogFlag>
+	<Encoding>utf-8</Encoding>
+	<!--对应代码中的handler,指明接收报文具体执行哪个handler -->
+	<Handler>Handler10001</Handler>
+	<!--指定报文根节点-->
+	<Root>service</Root>
+	
+	<!-- 收到的请求报文格式 -->	
+	<Request>
+		<Field name="ip" desc="测试" len="8" nullable="" loop=""  tag="service/BODY/IdntTp"/>
+	</Request>  
+	
+	<!-- 处理请求后的响应 -->
+	<Response>
+		<!--公共报文头-->
+		<Field name="Mac" desc="返回码" len="4" nullable="true" loop=""  tag="service/SYS_HEAD/Mac"/>
+		<Field name="TargetSysId" desc="返回码" len="4" nullable="true" loop=""  tag="service/SYS_HEAD/TargetSysId"/>
+		<Field name="MsgId" desc="返回码" len="4" nullable="true" loop=""  tag="service/SYS_HEAD/MsgId"/>
+		<Field name="ReturnCode" desc="返回码" len="4" nullable="true" loop=""  tag="service/APP_HEAD/ReturnCode"/>
+		<Field name="ReturnMsg" desc="返回码" len="4" nullable="true" loop=""  tag="service/APP_HEAD/ReturnMsg"/>
+		<Field name="TranDate" desc="返回码" len="4" nullable="true" loop=""  tag="service/APP_HEAD/TranDate"/>
+		<Field name="TranTime" desc="返回码" len="4" nullable="true" loop=""  tag="service/APP_HEAD/TranTime"/>
+		<Field name="GlobalSeqNo" desc="返回码" len="4" nullable="true" loop=""  tag="service/APP_HEAD/GlobalSeqNo"/>
+		<!--私有域-->
+		<Field name="OtptFile" desc="返回码" len="4" nullable="true" loop="list"  tag="service/BODY/FileArray/OtptFile"/>
+	</Response>
+</Pack>

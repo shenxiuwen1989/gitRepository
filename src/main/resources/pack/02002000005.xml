@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MQ服务方测试 -->	
+<Pack>	
+	<PackCode>020020000051</PackCode>
+	<Desc>测试使用报文</Desc>
+	<LogFlag>true</LogFlag>
+	<Encoding>utf-8</Encoding>
+	<Handler>Handler02002000005</Handler>
+	<Root>service</Root>
+	
+	<!-- 收到的请求报文格式 -->	
+	<Request>
+		<Field name="ip" desc="测试" len="8" nullable="true" loop=""  tag="service/BODY/IdntTp"/>
+	</Request>  
+	
+	<!-- 处理请求后的响应 -->
+	<Response>
+		<Field name="code" desc="返回码" len="4" nullable="true" loop=""  tag="service/BODY/ReturnCode"/>
+	</Response>
+</Pack>

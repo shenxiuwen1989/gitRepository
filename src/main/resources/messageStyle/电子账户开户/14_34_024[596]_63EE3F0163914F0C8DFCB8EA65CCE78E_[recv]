@@ -1,0 +1,21 @@
+00000648{H:01ZXYHDZZHDZZH20000120180702135210ZXYH201807020000014511                      1                    }<?xml version="1.0" encoding="GBK"?>
+
+<Document>
+    <ResponseHeader>
+        <status>S</status>
+        <rspcode>DZZH0000</rspcode>
+        <rspmsg>transaction createPersDepositAcct成功</rspmsg>
+        <serviceseq>116951</serviceseq>
+        <servicedate>20180711</servicedate>
+        <servicetime>143426</servicetime>
+        <currpage/>
+        <pagenum/>
+        <totalrownum/>
+    </ResponseHeader>
+    <Content>
+        <mediid>6231460599000008705</mediid>
+        <customernbr>1470</customernbr>
+        <branchorgnbr>5101</branchorgnbr>
+        <acctnbr>100000016810</acctnbr>
+    </Content>
+</Document>

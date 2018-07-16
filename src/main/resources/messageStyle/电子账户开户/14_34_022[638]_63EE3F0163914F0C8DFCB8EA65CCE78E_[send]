@@ -1,0 +1,41 @@
+00001185{H:01ZXYHDZZHDZZH20000120180702135210ZXYH201807020000014511                      1                    }<?xml version="1.0" encoding="GBK"?>
+
+<Document>
+    <CommonRequestHeader>
+        <firstsysname></firstsysname>
+        <firstsysmemucode></firstsysmemucode>
+        <firstsysmemuname></firstsysmemuname>
+        <firstsysdate></firstsysdate>
+        <firstsystime></firstsystime>
+        <firstsysseq></firstsysseq>
+        <requesttrancode></requesttrancode>
+        <requestseq>ZXYH201807020000014511</requestseq>
+        <brno></brno>
+        <tellerno></tellerno>
+        <authtellerno></authtellerno>
+        <reviewtellrno></reviewtellrno>
+        <pageflag></pageflag>
+        <currpage></currpage>
+        <pagenum></pagenum>
+        <smssendyn>N</smssendyn>
+    </CommonRequestHeader>
+    <Content>
+        <custidnbr>110108195607175419</custidnbr>
+        <custidtyp>0</custidtyp>
+        <customerid></customerid>
+        <customname>李龙云</customname>
+        <custphone>13393863579</custphone>
+        <medipwd>123456</medipwd>
+        <acctlev>2</acctlev>
+        <relcardnbr>6228482372317772011</relcardnbr>
+        <cardagreementtypcd>VCAD</cardagreementtypcd>
+        <innerflag>INNER</innerflag>
+        <mediavailyn>Y</mediavailyn>
+        <medistatcd>ACT</medistatcd>
+        <mjaccttypcd></mjaccttypcd>
+        <miaccttypcd></miaccttypcd>
+        <fzdqmc>sz</fzdqmc>
+        <expiredate>20180912</expiredate>
+        <xmlplatformnbr>1</xmlplatformnbr>
+    </Content>
+</Document>
